@@ -1,2 +1,3 @@
-.db
-,DS_Store
+*.db
+*.jpg
+.DS_Store
