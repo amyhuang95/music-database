@@ -2,7 +2,7 @@
 
 This project demonstrates the use of SQL to modify and query a music database using SQLite. The database used is the Chinook database provided by [SQLite Tutorial](https://www.sqlitetutorial.net/sqlite-sample-database/).
 
-_This project was developed as part of the course CS 5200 Database Management Systems taught by Professor John Alexis Guerra Gomez at the Northeastern University (Oakland)._
+_This project was developed as part of the course CS 5200 Database Management Systems taught by Professor John Alexis Guerra Gomez at Northeastern University (Oakland)._
 
 ## How to run the queries:
 
