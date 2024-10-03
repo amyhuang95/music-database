@@ -7,7 +7,7 @@ This project was developed as part of the course _CS 5200 Database Management Sy
 ## How to run the queries:
 
 1. Download the Chinook database from the link: https://www.sqlitetutorial.net/sqlite-sample-database/.
-2. Download the `.sql` files from this repository.
+2. Download the `.sql` files from this repository, and place them in the same directory as the `chinook.db` file.
 3. Run the following commands for each `.sql` file in the terminal. Change the query number to the number of the query you want to run.
 
 ```bash
