@@ -3,8 +3,8 @@
 SELECT playlists.Name, COUNT(tracks.TrackId) AS "Number of Tracks"
 FROM playlists
 LEFT JOIN playlist_track
-ON playlists.PlaylistId = playlist_track.PlaylistId
+    ON playlists.PlaylistId = playlist_track.PlaylistId
 LEFT JOIN tracks
-ON playlist_track.TrackId = tracks.TrackId
+    ON playlist_track.TrackId = tracks.TrackId
 GROUP BY playlists.Name
 ORDER BY COUNT(tracks.TrackId) DESC;

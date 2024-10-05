@@ -4,8 +4,8 @@
 SELECT tracks.Name, genres.Name, artists.Name
 FROM tracks
 LEFT JOIN genres 
-ON tracks.GenreId = genres.GenreId
+    ON tracks.GenreId = genres.GenreId
 LEFT JOIN albums
-ON tracks.AlbumId = albums.AlbumId
+    ON tracks.AlbumId = albums.AlbumId
 LEFT JOIN artists
-ON albums.ArtistId = artists.ArtistId;
+    ON albums.ArtistId = artists.ArtistId;
